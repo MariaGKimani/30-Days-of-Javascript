@@ -1,4 +1,4 @@
-//level2
+//////////////////////////////level2///////////////////////////////////
 let quote = "There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another."
 console.log(quote)
 
@@ -22,20 +22,21 @@ var j = "I hope this course is not full of jargon."
 console.log(j.includes('jargon'))
 
 //Generate a random number between 0 and 100 inclusively.
-const num5 = Math.floor(Math.random()*51)+ 50;
-console.log(num5)
+const num5 = Math.floor(Math.random()* (100 -0));
+console.log({num5})
 
 //Generate a random number between 50 and 100 inclusively.
-let num6 =Math.floor(Math.random()*25)+ 25
+let num6 =Math.floor(Math.random()*50)+ 50
 console.log(num6)
 
 //Generate a random number between 0 and 255 inclusively.
-let num9 =Math.floor(Math.random()*128)+127
+let num9 =Math.floor(Math.random()*128)+0
 console.log(num9)
 
 let dd = "You cannot end a sentence with because because because is a conjunction"
 dd.substr(11,5)
 console.log(dd)
+/////////////////////////////////LEVEL 3/////////////////////////////////LEVEL 3////
 
 //Love is the best thing in this world. Some found their love and some are still looking for their love.'
 // Count the number of word love in this sentence.

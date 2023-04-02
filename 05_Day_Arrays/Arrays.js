@@ -1,3 +1,4 @@
+///////////////////////////////////////////EXCERCISE :  Level 1////////////////////////
 //Declare an empty array;
 var z = [];
 var x =Array()
@@ -33,4 +34,5 @@ console.log(lastx);
 
 let newArrCamel= itCompanies.map(item=> item.charAt(0).toUpperCase() + item.substr(1).toLowerCase())
 console.log(newArrCamel)
+//11
 
