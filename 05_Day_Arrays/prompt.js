@@ -46,8 +46,8 @@ isRaining
 //Even numbers are divisible by 2
 // and the remainder is zero. 
 //How do you check, if a number is even or not using JavaScript?
-x= 4
-x= 7
+x= 2
+x= 9
 if(x % 2 == 0){
     console.log("even")
 }else{
