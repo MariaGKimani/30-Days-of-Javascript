@@ -1,4 +1,4 @@
-//exercises: Level 1
+///////////////////////////////////////////EXCERCISE :  Level 1////////////////////////
 //Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
 let number = prompt('Enter number', 'number goes here')
@@ -30,9 +30,9 @@ if(a > b){
     return ("a is less than b")
 }
 //using ternary operator
-let a =4;
-let b =3;
-a > b 
+let c =4;
+let d =3;
+c > d
 ? console.log("a is greater than b")
 : console.log("a is less than b")
 
