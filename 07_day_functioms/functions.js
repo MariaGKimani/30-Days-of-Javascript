@@ -83,19 +83,86 @@ console.log(speed(3000,60))
 
 //Weight of a substance is calculated as follows: 
 //weight = mass x gravity. Write a function which calculates weight.
-function  weight(mass,gravity) {
-    return (mass * gravity)
-}
-console.log(weight(mass * gravity))
+// function  weight(mass,gravity) {
+//     return (mass * gravity)
+// }
+// console.log(weight(mass * gravity))
 
 
 //Temperature in oC can be converted to oF using this formula:
 // oF = (oC x 9/5) + 32. 
 //Write a function which convert oC to oF convertCelsiusToFahrenheit.
-function Temperature(){
-    const oF =(oC *9/5)
+function Temperature(Celsius){
+    const x =(Celsius *9/5) + 32
+    return x
 }
+console.log(Temperature(20))
 
 
+// Body mass index(BMI) is calculated as follows:
+//  bmi = weight in Kg / (height x height) in m2. 
+//  Write a function which calculates bmi. 
+// BMI is used to broadly define different weight
+//   groups in adults 20 years old or older.
+//  Check if a person is underweight, normal, overweight or
+//  obese based the information given below.
+function calcBMI(weight,height) {
+    const bmi = weight / (height * height);
+  return bmi;
+}
+console.log(calcBMI(20,50));
 
-//
+
+function calculateBmi(bmi) { 
+    if(bmi < 18.5){
+        console.log("Underweight")
+    }else if (bmi > 18.5 && bmi < 24.9) {
+        console.log("Normalweight")
+    }else if (bmi > 25 && bmi < 29.9) {
+        console.log("Overweight")
+    }else{
+        console.log("Obese")
+    }
+}
+// const bmi = weight/(height * height)
+console.log(calculateBmi(20,40));
+
+
+// Write a function called checkSeason, it takes a month parameter
+//  and returns the season:Autumn, Winter, Spring or Summer.
+function checkSeason(month) {
+    switch (month) {
+      case "December":
+      case "January":
+      case "February":
+        return "Winter";
+      case "March":
+      case "April":
+      case "May":
+        return "Spring";
+      case "June":
+      case "July":
+      case "August":
+        return "Summer";
+      case "September":
+      case "October":
+      case "November":
+        return "Autumn";
+      default:
+        return "Invalid month";
+    }
+  }
+console.log(checkSeason("June"))  
+
+
+// Math.max returns its largest argument.
+//  Write a function findMax that takes three arguments 
+//  and returns their maximum with out using Math.max method.
+console.log(findMax(0, 10, 5))
+10
+console.log(findMax(0, -10, -2))
+0
+function findMax(num1,num2,num3) {
+    console.log(max(num1,num2,num3))
+}
+findMax(12,23,34)

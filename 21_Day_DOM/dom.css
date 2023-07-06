@@ -1,0 +1,17 @@
+.completed {
+    background-color: green;
+    width: 60%;
+    padding: 20px;
+}
+
+.ongoing {
+    background-color: yellow;
+    padding: 20px;
+    width: 60%;
+}
+
+.coming {
+    background-color: red;
+    width: 60%;
+    padding: 20px;
+}

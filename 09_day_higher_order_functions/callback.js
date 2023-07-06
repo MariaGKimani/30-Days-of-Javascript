@@ -27,7 +27,7 @@ const numbersArray = numbers.map((number) => number * number)
 console.log(numbersArray);
 
 const namesx =names.map ((name) =>name.toUpperCase())
-console.log(namesx);
+console.log(name[sx);
 
 const productsX = products.map((product =>({product: product.product, price: product.price})))
 console.log(productsX);
